@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  translate: all 0.3 ease;
+}
+
+.button:hover{
+  background-color: aquamarine;
+  transform: scale(1.05);
+}

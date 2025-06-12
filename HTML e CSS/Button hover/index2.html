@@ -1,0 +1,47 @@
+<!-- criar um botão com hover
+ampliar um pouco ao passaro mouse
+ e mudar de cor do fundo -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .button {
+    border: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: aqua;
+    color: white;
+    transform: scale(1.08);
+  }
+</style>
+
+<body>
+  <button class="button">Clique aqui</button>
+</body>
+
+</html>

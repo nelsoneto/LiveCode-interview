@@ -1,0 +1,43 @@
+body {
+  background-color: #313131;
+  color: white;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  border: none;
+  background-color:aliceblue;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.button {
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  background-color: aquamarine;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.success {
+  color: aquamarine;
+  margin-top: 10px;
+}
